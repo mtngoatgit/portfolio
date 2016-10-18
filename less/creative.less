@@ -59,6 +59,9 @@ p {
 .text-faded {
     color: fade(white, 70%);
 }
+.header-titles {
+  display: none;
+}
 .my-av {
     width: 250px;
     height: 250px;
@@ -146,8 +149,20 @@ p {
     background-size: contain;
     background-position: center;
 }
-
-
+.contact-container {
+  padding: 50px 0;
+}
+.icon-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+}
 section {
     padding: 100px 0;
 }
@@ -283,6 +298,7 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
+
         .header-content {
             position: absolute;
             top: 70%;
@@ -290,6 +306,9 @@ header {
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
+            .header-titles {
+              display: block;
+            }
             .header-content-inner {
                 max-width: 1000px;
                 margin-left: auto;
@@ -415,6 +434,7 @@ header {
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
+    color: white;
 }
 
 .btn-xl {

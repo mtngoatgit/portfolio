@@ -52,6 +52,9 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+.header-titles {
+  display: none;
+}
 .my-av {
   width: 250px;
   height: 250px;
@@ -125,6 +128,20 @@ p {
   background: url('../img/icons/react.png') no-repeat;
   background-size: contain;
   background-position: center;
+}
+.contact-container {
+  padding: 50px 0;
+}
+.icon-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
 }
 section {
   padding: 100px 0;
@@ -266,6 +283,9 @@ header .header-content .header-content-inner p {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
+  }
+  header .header-content .header-titles {
+    display: block;
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
@@ -463,6 +483,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
+  color: white;
 }
 .btn-xl {
   padding: 15px 30px;
