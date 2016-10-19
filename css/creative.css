@@ -129,6 +129,20 @@ p {
   background-size: contain;
   background-position: center;
 }
+.portfolio-header {
+  text-align: center;
+  color: white;
+}
+.portfolio-piece {
+  color: white;
+  text-align: center;
+}
+.portfolio-piece .portfolio-title {
+  width: 100%;
+}
+.portfolio-piece .portfolio-description {
+  width: 100%;
+}
 .contact-container {
   padding: 50px 0;
 }
