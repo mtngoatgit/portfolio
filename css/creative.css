@@ -136,12 +136,15 @@ p {
 .portfolio-piece {
   color: white;
   text-align: center;
+  padding: 10px;
 }
 .portfolio-piece .portfolio-title {
   width: 100%;
 }
 .portfolio-piece .portfolio-description {
   width: 100%;
+  height: 100px;
+  padding: 10px 5px;
 }
 .contact-container {
   padding: 50px 0;
